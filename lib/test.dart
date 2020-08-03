@@ -35,9 +35,11 @@ class FormState extends State<Formato> {
         body: new Container(
           child: TextField(
             decoration: InputDecoration(
+               prefixText: "Nombre ",
                 border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10)
                   )
+                 
                 ),
             controller: myController,
           ),
