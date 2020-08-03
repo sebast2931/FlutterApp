@@ -11,14 +11,18 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// Define un widget de formulario personalizado
 class Formato extends StatefulWidget {
   @override
   FormState createState() => FormState();
 }
-
+// Define la clase State correspondiente. Esta clase contendrá los datos relacionados con
+// nuestro formulario.
 class FormState extends State<Formato> {
   @override
   Widget build(BuildContext context) {
+    // Crea un controlador de texto. Lo usaremos para recuperar el valor actual
+  // del TextField!
     final myController = TextEditingController();
 
     // TODO: implement build
